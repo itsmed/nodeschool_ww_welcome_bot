@@ -1,0 +1,30 @@
+{
+  "name": "nodeschool_ww_welcome_bot",
+  "version": "1.0.0",
+  "description": "welcome bot for nodeschool world-wide slack",
+  "main": "index.js",
+  "author": "DJ Gill",
+  "license": "ISC",
+  "homepage": "https://github.com/itsmed/nodeschool_ww_welcome_bot#readme",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmed/nodeschool_ww_welcome_bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itsmed/nodeschool_ww_welcome_bot/issues"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.9",
+    "path": "^0.12.7"
+  }
+}
